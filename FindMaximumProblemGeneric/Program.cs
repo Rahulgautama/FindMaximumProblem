@@ -6,9 +6,9 @@ namespace FindMaximumProblemGeneric
     {
         static void Main(string[] args)
         {
-            string firstNumber = "Banana";
-            string secondNumber = "Peach";
-            string thirdNumber = "Apple";
+            string firstNumber = "Peach";
+            string secondNumber = "Apple";
+            string thirdNumber = "Banana";
             FindMaximumFloatNumber findMaximumIntegerNumber = new FindMaximumFloatNumber();
             string maxString =findMaximumIntegerNumber.FindMaxStringNumber(firstNumber.Length,secondNumber.Length,thirdNumber.Length);
 
