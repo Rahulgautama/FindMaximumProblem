@@ -6,7 +6,7 @@ namespace FindMaximumProblemGeneric
     {
         static void Main(string[] args)
         {
-            int firstNumber = 120;
+            int firstNumber = 150;
             int secondNumber = 167;
             int thirdNumber = 144;
             FindMaximumIntegerNumber findMaximumIntegerNumber = new FindMaximumIntegerNumber();
