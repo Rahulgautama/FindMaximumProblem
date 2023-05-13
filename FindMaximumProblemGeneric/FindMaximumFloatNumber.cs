@@ -4,9 +4,9 @@ using System.Text;
 
 namespace FindMaximumProblemGeneric
 {
-    class FindMaximumIntegerNumber
+    class FindMaximumFloatNumber
     {
-        public int FindMaxIntegerNumber(int firstValue, int secondValue, int thirdValue)
+        public float FindMaxIntegerNumber(float firstValue, float secondValue, float thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
