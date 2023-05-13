@@ -1,0 +1,11 @@
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\obj\Debug\netcoreapp3.1\FindMaximumProblemGeneric.csprojAssemblyReference.cache
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\obj\Debug\netcoreapp3.1\FindMaximumProblemGeneric.AssemblyInfoInputs.cache
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\obj\Debug\netcoreapp3.1\FindMaximumProblemGeneric.AssemblyInfo.cs
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\bin\Debug\netcoreapp3.1\FindMaximumProblemGeneric.exe
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\bin\Debug\netcoreapp3.1\FindMaximumProblemGeneric.deps.json
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\bin\Debug\netcoreapp3.1\FindMaximumProblemGeneric.runtimeconfig.json
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\bin\Debug\netcoreapp3.1\FindMaximumProblemGeneric.runtimeconfig.dev.json
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\bin\Debug\netcoreapp3.1\FindMaximumProblemGeneric.dll
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\bin\Debug\netcoreapp3.1\FindMaximumProblemGeneric.pdb
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\obj\Debug\netcoreapp3.1\FindMaximumProblemGeneric.dll
+D:\DLS-RFP-278\Project\FindMaximumProblemGeneric\FindMaximumProblemGeneric\obj\Debug\netcoreapp3.1\FindMaximumProblemGeneric.pdb
