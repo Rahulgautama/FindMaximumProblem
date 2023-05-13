@@ -5,7 +5,14 @@ using System.Text;
 namespace FindMaximumProblemGeneric
 {
     public class FindMaxValue<T> where T : IComparable
-    {       
+    {
+        public T firstValue, secondValue, thirdValue;
+        public FindMaxValue(T firstValue, T secondValue, T thirdValue)
+        {
+            this.firstValue = firstValue;
+            this.secondValue = secondValue;
+            this.thirdValue = thirdValue;
+        }
         public static T MaximumNumber(T firstValue, T secondValue, T thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||

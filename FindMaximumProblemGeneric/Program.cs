@@ -6,9 +6,9 @@ namespace FindMaximumProblemGeneric
     {
         static void Main(string[] args)
         {
-            int firstNumber = 40;
-            int secondNumber = 20;
-            int thirdNumber = 30;
+            int firstNumber = 29;
+            int secondNumber = 50;
+            int thirdNumber = 60;
            
             var maxNumber =FindMaxValue<int>.MaximumNumber(firstNumber,secondNumber,thirdNumber);
 
