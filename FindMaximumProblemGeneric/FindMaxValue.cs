@@ -4,29 +4,29 @@ using System.Text;
 
 namespace FindMaximumProblemGeneric
 {
-    class FindMaximumFloatNumber
-    {
-        public string FindMaxStringNumber(int firstValue, int secondValue, int thirdValue)
+    public class FindMaxValue<T> where T : IComparable
+    {       
+        public static T MaximumNumber(T firstValue, T secondValue, T thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) >= 0)
             {
-                return "1st "+firstValue;
+                return firstValue;
             }
             if (secondValue.CompareTo(firstValue) > 0 && secondValue.CompareTo(thirdValue) > 0 ||
                 secondValue.CompareTo(firstValue) >= 0 && secondValue.CompareTo(thirdValue) > 0 ||
                 secondValue.CompareTo(firstValue) > 0 && secondValue.CompareTo(thirdValue) >= 0)
             {
-                return "2th " + secondValue;
+                return secondValue;
             }
             if (thirdValue.CompareTo(firstValue) > 0 && thirdValue.CompareTo(secondValue) > 0 ||
                 thirdValue.CompareTo(firstValue) >= 0 && thirdValue.CompareTo(secondValue) > 0 ||
                 thirdValue.CompareTo(firstValue) > 0 && thirdValue.CompareTo(secondValue) >= 0)
             {
-                return "3rd " + thirdValue;
+                return thirdValue;
             }
-            return "1st" + firstValue;
+            return firstValue;
         }
     }
 }
