@@ -6,13 +6,13 @@ namespace FindMaximumProblemGeneric
     {
         static void Main(string[] args)
         {
-            float firstNumber = 180.1f;
-            float secondNumber = 180.2f;
-            float thirdNumber = 180.3f;
+            string firstNumber = "Apple";
+            string secondNumber = "Peach";
+            string thirdNumber = "Banana";
             FindMaximumFloatNumber findMaximumIntegerNumber = new FindMaximumFloatNumber();
-            float maxNumber=findMaximumIntegerNumber.FindMaxIntegerNumber(firstNumber,secondNumber,thirdNumber);
+            string maxString =findMaximumIntegerNumber.FindMaxStringNumber(firstNumber.Length,secondNumber.Length,thirdNumber.Length);
 
-            Console.WriteLine(maxNumber);
+            Console.WriteLine(maxString);
         }
     }
 }

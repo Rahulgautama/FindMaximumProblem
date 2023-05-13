@@ -6,27 +6,27 @@ namespace FindMaximumProblemGeneric
 {
     class FindMaximumFloatNumber
     {
-        public float FindMaxIntegerNumber(float firstValue, float secondValue, float thirdValue)
+        public string FindMaxStringNumber(int firstValue, int secondValue, int thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) >= 0)
             {
-                return firstValue;
+                return "1st "+firstValue;
             }
             if (secondValue.CompareTo(firstValue) > 0 && secondValue.CompareTo(thirdValue) > 0 ||
                 secondValue.CompareTo(firstValue) >= 0 && secondValue.CompareTo(thirdValue) > 0 ||
                 secondValue.CompareTo(firstValue) > 0 && secondValue.CompareTo(thirdValue) >= 0)
             {
-                return secondValue;
+                return "2th " + secondValue;
             }
             if (thirdValue.CompareTo(firstValue) > 0 && thirdValue.CompareTo(secondValue) > 0 ||
                 thirdValue.CompareTo(firstValue) >= 0 && thirdValue.CompareTo(secondValue) > 0 ||
                 thirdValue.CompareTo(firstValue) > 0 && thirdValue.CompareTo(secondValue) >= 0)
             {
-                return thirdValue;
+                return "3rd " + thirdValue;
             }
-            return firstValue;
+            return "1st" + firstValue;
         }
     }
 }
