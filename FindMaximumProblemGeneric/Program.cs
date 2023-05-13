@@ -6,7 +6,7 @@ namespace FindMaximumProblemGeneric
     {
         static void Main(string[] args)
         {
-            int firstNumber = 10;
+            int firstNumber = 40;
             int secondNumber = 20;
             int thirdNumber = 30;
            
