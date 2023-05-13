@@ -7,7 +7,7 @@ namespace FindMaximumProblemGeneric
         static void Main(string[] args)
         {
             int firstNumber = 150;
-            int secondNumber = 167;
+            int secondNumber = 160;
             int thirdNumber = 144;
             FindMaximumIntegerNumber findMaximumIntegerNumber = new FindMaximumIntegerNumber();
             int maxNumber=findMaximumIntegerNumber.FindMaxIntegerNumber(firstNumber,secondNumber,thirdNumber);
